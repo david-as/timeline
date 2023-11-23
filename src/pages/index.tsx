@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Timeline() {
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
@@ -139,6 +139,22 @@ export default function Home() {
             Sociólogo francês; teoria da reprodução social destaca influência
             cultural e capital simbólico; investigou desigualdades sociais e
             cultura na sociedade contemporânea.
+          </p>
+        </li>
+        <li className="mb-20 ms-16">
+          <span className="absolute flex items-center justify-center w-20 h-20 bg-blue-100 rounded-full -start-10 -y-3 ring-8 ring-white overflow-hidden">
+            <Image src="/imgs/pierre.jpg" alt="Howard Gardner" fill />
+          </span>
+          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            Howard Gardner
+          </h3>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            1983
+          </time>
+          <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+            Psicólogo americano; teoria das inteligências múltiplas; redefiniu
+            conceitos de inteligência; influência na educação e compreensão da
+            mente humana.
           </p>
         </li>
       </ol>
