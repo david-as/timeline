@@ -109,22 +109,7 @@ export default function Timeline() {
             significativas no Brasil.
           </p>
         </li>
-        <li className="mb-20 ms-16">
-          <span className="absolute flex items-center justify-center w-20 h-20 bg-blue-100 rounded-full -start-10 -y-3 ring-8 ring-white overflow-hidden">
-            <Image src="/imgs/paulo.png" alt="Paulo Freire" fill />
-          </span>
-          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Paulo Freire
-          </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            1980
-          </time>
-          <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            Educador brasileiro; pedagogia crítica; alfabetização como
-            libertação; engajamento social e educação como instrumentos de
-            transformação e conscientização.
-          </p>
-        </li>
+
         <li className="mb-20 ms-16">
           <span className="absolute flex items-center justify-center w-20 h-20 bg-blue-100 rounded-full -start-10 -y-3 ring-8 ring-white overflow-hidden">
             <Image src="/imgs/pierre.jpg" alt="Pierre Bourdieu" fill />
